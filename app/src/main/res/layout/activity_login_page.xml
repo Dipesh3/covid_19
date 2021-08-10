@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="1000dp"
+        android:layout_height="243dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/welc"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="324dp"
+        android:layout_height="67dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:hint="Enter Your Email"
+        android:textColorHint="#000000 "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527" />
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="324dp"
+        android:layout_height="67dp"
+        android:background="@drawable/text"
+        android:hint="Set a Password"
+        android:password="true"
+        android:textColorHint="#000000 "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="167dp"
+        android:layout_height="57dp"
+        android:background="@drawable/button_register"
+        android:text="Log In"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="216dp"
+        android:layout_height="19dp"
+        android:text="Already Have An Account?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="58dp"
+        android:layout_height="19dp"
+        android:text="Sign Up"
+        android:textColor="#6ac5fe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971" />
+</androidx.constraintlayout.widget.ConstraintLayout>
